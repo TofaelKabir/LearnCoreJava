@@ -1,4 +1,4 @@
-package coreJava;
+package lec01JavaBasic;
 
 // we can create more than one class inside a package
 // we can create more than one package inside the src file [src is called source file]
