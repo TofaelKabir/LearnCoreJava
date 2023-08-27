@@ -13,9 +13,9 @@ public class EmployeeTest {
 		// Why String type? Why inside double quotation?
 		// because parameter is String type
 		Employee zahraa = new Employee("Zahraa Tazmeen");
-		Employee rubayyi = new Employee("Rubayyi Sayem");
+		Employee rubayyi = new Employee("Rubayyi Saaim");
 		Employee nabeeha = new Employee("Nabeeha Tahsin");
-		Employee raiyan = new Employee("Raiyan Sayem");
+		Employee raiyan = new Employee("Raiyan Saaim");
 		// although parameterized constructor is declared once, you can initialize it as many times as you want
 
 		// next class we will use more than one parameter

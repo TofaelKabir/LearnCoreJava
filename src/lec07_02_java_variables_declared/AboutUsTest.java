@@ -35,7 +35,7 @@ public class AboutUsTest {
 		
 		System.out.println("\n------------------------------------\n");
 		AboutUs raiyan = new AboutUs();
-		raiyan.myName = "Raiyan Sayem";
+		raiyan.myName = "Raiyan Saaim";
 		raiyan.myAge = 75;
 		raiyan.myApartmentRent = 25000;
 		raiyan.myYearlySalary = 786536434;
