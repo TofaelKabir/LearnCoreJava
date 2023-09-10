@@ -7,6 +7,7 @@ public class NarrowingCasting {
 		System.out.println("My Grade: " + myGrade);
 		
 		// Convert a double to an int type
+		// narrowing casting
 		int myNewGradeInInt = (int) myGrade;
 		System.out.println("My New Grade: " + myNewGradeInInt);
 		
