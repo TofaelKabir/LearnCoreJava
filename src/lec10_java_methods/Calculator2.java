@@ -1,4 +1,4 @@
-package lec09_java_methods;
+package lec10_java_methods;
 
 public class Calculator2 {
 	// Class Variable or Global Variable

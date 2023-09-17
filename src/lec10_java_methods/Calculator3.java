@@ -1,6 +1,6 @@
-package lec09_java_methods;
+package lec10_java_methods;
 
-public class Calculator2 {
+public class Calculator3 {
 	// Class Variable or Global Variable
 	// default type of access modifier is used, no reason, just for practice
 	int a = 56;
@@ -8,6 +8,20 @@ public class Calculator2 {
 	
 	String fName = "Mohammad";
 	String lName = "Sharkar";
+	
+	// New, learned from here
+	// default Constructor
+	public Calculator3 () {
+		// new, we can call methods inside Constructor
+		addition();
+		subtraction();
+		myName();
+		multiplication();
+		// Why we need to put methods inside constructor?
+		// if a class is instantiated, constructor is initialized, 
+		// so if we put something what we need instantiation,
+		// then it helps
+	}
 		
 	// void type method (kept here for comparison)
 	public void addition () {
@@ -33,12 +47,6 @@ public class Calculator2 {
 	public int multiplication () {
 		System.out.println("Multiplication of a and b is: " + (a*b));
 		return a*b; // sometimes people write like this
-	}
-	
-	public int division () {
-		int total3 = a/b;
-		System.out.println("Division of a and b is " + total3);
-		return total3;
 	}
 	
 	

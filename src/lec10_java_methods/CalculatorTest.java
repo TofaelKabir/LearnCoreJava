@@ -1,4 +1,4 @@
-package lec09_java_methods;
+package lec10_java_methods;
 
 public class CalculatorTest {
 
@@ -39,6 +39,29 @@ public class CalculatorTest {
 		cal5.subtraction(30, 10);
 		cal5.subtraction(21, 25);
 		cal5.subtraction(88, 90);
+		
+		System.out.println("--------------------------------");
+		Calculator6 cal6 = new Calculator6();
+		cal6.employee("Raiyan", 31241, 'M', false);
+		cal6.employee("Zahraa", 91241, 'F', true);
+		System.out.println("--------------------------------");
+		cal6.allMethods(33, 11);
+		System.out.println("--------------------------------");
+		cal6.allMethods(554, 123);
+		
+		System.out.println("--------------------------------");
+		Calculator7 cal7 = new Calculator7();
+		cal7.addition(334, "43");
+		cal7.addition(54, "88");
+		System.out.println("--------------------------------");
+		cal7.subtraction(5378, 345.98785);
+		cal7.division01(425, 25.4356f);
+		cal7.division02(24, 4.0f);
+		
+		System.out.println("--------------------------------");
+		Calculator8 cal8 = new Calculator8();
+		cal8.division();
+		cal8.multiplication();
 		
 		
 		
