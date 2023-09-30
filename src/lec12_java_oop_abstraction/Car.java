@@ -1,4 +1,4 @@
-package lec11_java_oop;
+package lec12_java_oop_abstraction;
 
 // Interface names starts with UpperCase 
 // They follow Camel case or Snake case pattern.
@@ -8,7 +8,7 @@ package lec11_java_oop;
 
 // What is Interface?
 // Interface is a Blueprint of the Class.
-// An interface is a collection of methods that are defined (declared) but not implemented. 
+// An interface is a collection of methods that are defined (declared) in nature. 
 
 public interface Car {
 	// Global variable
@@ -38,4 +38,22 @@ public interface Car {
 	// using abstract keyword for abstract method inside Interface is not mandatory
 	public abstract void stop();
 	public String brake();
+	
+	// from Java 1.8, JAVA implemented static and default type method in interface 
+	// which are implemented in nature
+	// important interview question
+	// These below 2 method can be return type, can be parameterized type
+	
+	// This default is not access modifier
+	public default void honk() {
+		System.out.println("This honk feature came from Car Interface");
+	}
+	
+	public static void gear() {
+		System.out.println("This gear feature came from Car Interface");
+	}
+	
+	
+	
+	
 }

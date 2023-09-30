@@ -1,4 +1,4 @@
-package lec11_java_oop;
+package lec12_java_oop_abstraction;
 
 
 // Abstract Class names starts with UpperCase like a regular class
@@ -32,5 +32,17 @@ public abstract class ElectricCar {
 	// This is mandatory to put abstract keyword with the abstract method inside Abstract Class
 	// This is the norm/rules to write at least one abstract method inside abstract class
 	public abstract void price();
+	
+	// Default methods are allowed only in interfaces, not in abstract class
+	/*
+	public default void noGas() {
+		
+	}
+	*/
+	
+	// static method can be used inside abstract class
+	public static void yearOfEstablishment() {
+		System.out.println("Established in 2018");
+	}
 
 }

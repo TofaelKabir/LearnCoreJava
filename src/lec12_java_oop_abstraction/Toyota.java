@@ -1,4 +1,4 @@
-package lec11_java_oop;
+package lec12_java_oop_abstraction;
 
 public class Toyota {	
 	// Global variable
@@ -16,5 +16,18 @@ public class Toyota {
 	public void toyotaInfo() {
 		System.out.println("Toyota is from Japan");
 	}
+	
+	// Default methods are allowed only in interfaces, not in regular class
+	/*
+	public default void toyotaColor () {
+		
+	}
+	*/
+	
+	// static method can be used inside Regular class
+	public static void countryOfOrigin() {
+		System.out.println("Made in Japan");
+	}
+	
 
 }
